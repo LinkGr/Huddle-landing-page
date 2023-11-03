@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution in Frontend Mentor](https://your-solution-url.com)
+- Solution URL: [Solution in Frontend Mentor](https://www.frontendmentor.io/solutions/huddle-landing-page-using-html-and-css-basic-W7O8yLEj22)
 - Live Site URL: [Solution Live Site](https://linkgr.github.io/Huddle-landing-page/)
 
 ## My process
