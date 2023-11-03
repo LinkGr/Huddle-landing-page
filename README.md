@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution Repository URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution in Frontend Mentor](https://your-solution-url.com)
+- Live Site URL: [Solution Live Site](https://linkgr.github.io/Huddle-landing-page/)
 
 ## My process
 
