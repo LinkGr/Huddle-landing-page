@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text-color: #fff;
+    --Violet: hsl(257, 40%, 49%);
+    --Soft-Magenta: hsl(300, 69%, 71%);
+}
+
+html {
+    font-size: 62.5%;
+}
+@media (max-width:965px) {
+    html {
+        font-size: clamp(0px, 0.8vw, 62.5%);
+    }
+}
+
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 3.5rem;
+
+    color: var(--text-color);
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+
+    color: var(--text-color);
+}
+
+button {
+    all: unset;
+
+    width: fit-content;
+    border-radius: 50vw;
+    padding: 3% 12%;
+
+    font-size: 1.6rem;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+
+    transition: 150ms;
+
+    color: var(--Violet);
+    background-color: var(--text-color);
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+button:hover {
+    color: var(--text-color);
+    background-color: var(--Soft-Magenta);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+
+    padding: 3% 8%;
+    padding-bottom: 2%;
+
+    background-color: var(--Violet);
+    background-image: url(../images/bg-desktop.svg);
+    background-size: contain;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+
+    width: 100%;
+    height: 15%;
+}
+header img {
+    height: 50%;
+
+}
+
+main {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+
+    height: 75%;
+    gap: 5%;
+}
+
+main img {
+    width: 100%;
+    object-fit: contain;
+}
+
+#mockups {
+    max-width: 100%;
+    padding-top: 0%;
+}
+
+main > section {
+    display: flex;
+    flex-direction: column;
+
+    max-width: 75%;
+    padding-top: 4%;
+    gap: 7%;
+}
+
+
+footer {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+
+    height: 10%;
+    gap: 1.2%;
+}
+
+footer * {
+    cursor: pointer;
+}
+
+footer svg {
+    height: 62%;
+    aspect-ratio: 1;
+
+    padding: 7px;
+
+    border-radius: 50%;
+    border: 1px solid var(--text-color);
+
+    fill: var(--text-color);
+
+    transition: 150ms;
+}
+
+footer svg:hover {
+    border-color: var(--Soft-Magenta);
+
+    fill: var(--Soft-Magenta);
+}
+
+#fontend-mentor-footer {
+    display: none;
+}
